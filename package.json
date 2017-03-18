@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mrhiyoko/gulpintro.git"
+    "url": "git+https://github.com/sbilikiewicz/gulpintro.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mrhiyoko/gulpintro/issues"
+    "url": "https://github.com/sbilikiewicz/gulpintro/issues"
   },
-  "homepage": "https://github.com/mrhiyoko/gulpintro#readme",
+  "homepage": "https://github.com/sbilikiewicz/gulpintro#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-connect": "^5.0.0",
