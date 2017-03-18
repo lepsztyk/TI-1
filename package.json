@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sbilikiewicz/gulpintro.git"
+    "url": "git+https://github.com/sbilikiewicz/TI.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sbilikiewicz/gulpintro/issues"
+    "url": "https://github.com/sbilikiewicz/TI/issues"
   },
-  "homepage": "https://github.com/sbilikiewicz/gulpintro#readme",
+  "homepage": "https://github.com/sbilikiewicz/TI#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-connect": "^5.0.0",
