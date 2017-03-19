@@ -3,7 +3,7 @@ var geojsons = [
         "type": "Feature",
         "geometry": {
             "type": "Point",
-            "coordinates": [48.40, 14.59]
+            "coordinates": [54.2118, 18.0658]
         },
         "properties": {
             "name": "Manila"
