@@ -19,5 +19,5 @@
 + [x] Create a website with math formulas using [MathJax](http://docs.mathjax.org/en/latest/index.html).
 
 
-[x] Egzamin Javascript
+# Egzamin Javascript
 + [x] [06 -Type Ahead](http://htmlpreview.github.io/?https://github.com/sbilikiewicz/TI/blob/master/JavaScriptProject/Type%20Ahead.html)
