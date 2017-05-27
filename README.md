@@ -17,3 +17,7 @@
 4\. [deadline 22.04.2017] [Web Math with MathJax](https://sbilikiewicz.github.io/TI/mathjax.html)
 
 + [x] Create a website with math formulas using [MathJax](http://docs.mathjax.org/en/latest/index.html).
+
+
+[x] Egzamin Javascript
++ [x] [06 -Type Ahead](http://htmlpreview.github.io/?https://github.com/sbilikiewicz/TI/blob/master/JavaScriptProject/Type%20Ahead.html)
