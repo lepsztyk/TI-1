@@ -14,7 +14,7 @@
 + [x] Create a website using the [Leaflet JavaScript Library](http://leafletjs.com/).
 + [x] Use the following [Geometry Objects] http://geojson.org/geojson-spec.html#geometry-objects): _Point_, _LineString_ and _Polygon_.
 
-3\ Responsive tables and pictures [Responsive](https://sbilikiewicz.github.io/TI/responsywnosc.html)
+3\. Responsive tables and pictures [Responsive](https://sbilikiewicz.github.io/TI/responsywnosc.html)
 + [x] Przygotowaæ stronê z kilkoma tabelkami. Nastêpnie dodaæ responsywnoœæ do tabelek.
 + [x] Przygotowaæ stronê z kilkoma obrazkami nastêpnie dodaæ responsywnoœæ do obrazków. Jak responywnoœæ wp³ywa na czas ³adowania strony?
 
@@ -24,4 +24,4 @@
 
 
 # Egzamin Javascript
-+ [x] [06 -Type Ahead](http://htmlpreview.github.io/?https://github.com/sbilikiewicz/TI/blob/master/JavaScriptProject/Type%20Ahead.html)
++ [x] [06 -Type Ahead](https://sbilikiewicz.github.io/TI/typeahead.html)
