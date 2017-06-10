@@ -1,0 +1,125 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+  <!-- style -->
+  <style>
+  table {
+    display: flex;
+    flex-flow: column nowrap;
+    font-size: .8rem;
+    margin: 0.5rem;
+    line-height: 1.5;
+    border-bottom: 1px solid #d0d0d0;
+    flex: 1 1 auto;
+  }
+
+  th {
+    display: none;
+    font-weight: 700;
+    background-color: #f2f2f2;
+  }
+
+  th > td {
+    white-space: normal;
+    justify-content: center;
+  }
+
+  tr {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+  tr:nth-of-type(even) {
+    background-color: #f2f2f2;
+  }
+
+  tr:nth-of-type(odd) {
+    background-color: #ffffff;
+  }
+
+  td {
+    display: flex;
+    flex-flow: row nowrap;
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 0.5em;
+    word-break: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0px;
+    white-space: nowrap;
+    border-bottom: 1px solid #d0d0d0;
+  }
+  </style>
+  <!-- javascript -->
+  <script>
+  $(document).ready( function() {
+              var $tr = $('tr'); //Cache this for performance
+
+              var setBodyScale = function() {
+                  var scaleSource = $tr.width(),
+                      scaleFactor = 0.15,
+                      maxScale = 300,
+                      minScale = 50; //Tweak these values to taste
+
+                  var fontSize = scaleSource * scaleFactor; //Multiply the width of the body by the scaling factor:
+
+                  if (fontSize > maxScale) fontSize = maxScale;
+                  if (fontSize < minScale) fontSize = minScale; //Enforce the minimum and maximums
+
+                  $('tr').css('font-size', fontSize + '%');
+                  $('th').css('font-size', fontSize + '%');
+              }
+
+              $(window).resize(function(){
+                  setBodyScale();
+              });
+
+              //Fire it when the page first loads:
+              setBodyScale();
+          });
+  </script>
+
+</head>
+
+<body>
+  <table>
+    <tr>
+      <th>Index</th>
+      <th>Number</th>
+      <th>Score</th>
+      <th>Score</th>
+      <th>Score</th>
+      <th>Score</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>66</td>
+      <td>55</td>
+      <td>44</td>
+      <td>33</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>11</td>
+      <td>22</td>
+      <td>33</td>
+      <td>34</td>
+      <td>44</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>66</td>
+      <td>77</td>
+      <td>88</td>
+      <td>99</td>
+      <td>98</td>
+    </tr>
+  </table>
+</body>
+</html>
